@@ -1,0 +1,17 @@
+/* CSSカスタムハイライトAPI - とほほのWWW入門 https://www.tohoho-web.com/ex/css-custom-highlight-api.html */
+
+::highlight(opal-highlight) {
+    background-color: #7f5ff2;
+}
+::highlight(sapphire-highlight) {
+    background-color: #64b7f8;
+}
+::highlight(ruby-highlight) {
+    background-color: #ff3c5a;
+}
+::highlight(garnet-highlight) {
+    background-color: #fde6b6;
+}
+::highlight(emerald-highlight) {
+    background-color: #39feae;
+}
