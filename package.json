@@ -1,7 +1,7 @@
 {
   "name": "rabbit-and-steel-highlight-jem-name",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "author": "hotarunw",
   "description": "A userscript to highlight the name of Jem in Rabbit and Steel.",
