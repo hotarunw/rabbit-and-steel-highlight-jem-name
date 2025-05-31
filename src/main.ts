@@ -23,6 +23,12 @@ const highlight = () => {
 
   for (const element of elements) {
     if (
+      element.innerHTML?.includes("#Emerald_Lakeside") ||
+      element.innerHTML?.includes("Emerald_Lakeside.png")
+    ) {
+      continue; // ハードコーディング
+    }
+    if (
       [...element.children].some(
         (child) => !["br", "div"].includes(child.tagName.toLowerCase())
       )
@@ -48,7 +54,7 @@ const highlight = () => {
   console.log("Hello, world!");
 
   // FIXME: notesで変更が元に戻ることがあるので、5回繰り返す
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 1; i++) {
     highlight();
     await new Promise((resolve) => setTimeout(resolve, 1000));
   }
