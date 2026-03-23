@@ -20,6 +20,7 @@ export default defineConfig({
           "https://wikiwiki.jp/rabbit-a-s/*",
           "https://rns.miraheze.org/wiki/*",
         ],
+        exclude: ["https://wikiwiki.jp/rabbit-a-s/::cmd/*"],
         license: packageJson.license,
       },
     }),
